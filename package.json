@@ -12,7 +12,7 @@
   "main": "./lib/baNanA",
   "repository": {
     "type": "git",
-    "url": "https://github.com/baN/anA"
+    "url": "https://github.com/pislastdecimal/banana"
   },
   "keywords": [
     "framework"
