@@ -1,0 +1,29 @@
+{
+  "name": "baNanA",
+  "version": "0.0.1",
+  "author": "pislastdecimal <brunolamarlere@gmail.com>",
+  "description": "light web framework starter",
+  "contributors": [ 
+    {
+      "name": "john doe",
+      "email": "john@doe.com"
+    } 
+  ],
+  "main": "./lib/baNanA",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baN/anA"
+  },
+  "keywords": [
+    "framework"
+    ,"node easy starter"
+  ],
+  "dependencies" : {
+	"socket.io": "latest"
+  },
+ "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  }
+}
+

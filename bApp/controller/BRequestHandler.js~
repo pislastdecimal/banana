@@ -1,0 +1,89 @@
+/************************************
+ * Par: bruno                     *
+ * Le: 08/07/13                      *
+ *                                  *
+ * Jusqu'à l'infini et au dela...   *
+ ************************************/
+
+var querystring = require('querystring');
+var fs = require("fs");
+var formidable = require('formidable');
+var bBaseTemplate = require('./../template/BBase');
+var url = require('url');
+
+
+var template = {
+    "head":bBaseTemplate.header,
+    "foot":bBaseTemplate.footer
+};
+
+var rh = {
+
+
+    rhName:"Controlleur de test",
+
+    /**
+     *
+     * @param temp
+     * @param response
+     * @param request
+     */
+    start:function (temp,response, request) {
+
+//        var params = querystring.parse(url.parse(request.url).query);
+//        var body = '<div>' + params['p'] + '</div>';
+        var body = '<form action="/upload" enctype="multipart/form-data" method="post">' +
+            '<input type="file" name="upload" multiple="multiple">' +
+            '<input type="submit" value="Transférer le fichier" />' +
+            '</form>';
+
+        response.writeHead(200, {"Content-Type":"text/html"});
+        response.write(template.head);
+        response.write(body);
+        response.write(template.foot);
+        response.end();
+    },
+
+    /**
+     *
+     * @param temp
+     * @param response
+     * @param request
+     */
+    upload:function (temp,response, request) {
+        var form = new formidable.IncomingForm();
+
+        form.parse(request, function (error, fields, files) {
+
+            /* En cas d'erreur sous Windows :
+             tentative d'écrasement d'un fichier existant */
+            response.writeHead(200, {"Content-Type":"text/html"});
+            response.write("Image reçue :<br/>");
+            response.write("<img src='/show' />");
+            response.end();
+        });
+    },
+
+    /**
+     *
+     * @param temp
+     * @param response
+     */
+    show:function (temp,response) {
+        fs.readFile("/tmp/test.jpg", "binary", function (error, file) {
+            if (error) {
+                response.writeHead(500, {"Content-Type":"text/plain"});
+                response.write(error + "\n");
+                response.end();
+            } else {
+                response.writeHead(200, {"Content-Type":"image/jpg"});
+                response.write(file, "binary");
+                response.end();
+            }
+        });
+    }
+};
+
+exports.rh = rh;
+
+

@@ -1,0 +1,463 @@
+@@@ [2013/07/12 18:3:38] LISTENNING @@@
+# [2013/07/12 18:4:22] FROM:'192.168.1.12' METH:'GET'  FOR:'/'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 18:4:23] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 18:4:40] FROM:'192.168.1.12' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 18:4:41] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+@@@ [2013/07/12 18:9:11] LISTENNING @@@
+# [2013/07/12 18:9:23] FROM:'192.168.1.12' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 18:9:24] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 18:9:26] FROM:'192.168.1.12' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 18:9:26] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+@@@ [2013/07/12 18:14:4] LISTENNING @@@
+# [2013/07/12 18:14:27] FROM:'192.168.1.12' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 18:14:28] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 18:14:29] FROM:'192.168.1.12' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 18:14:30] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 18:14:54] FROM:'192.168.1.12' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 18:14:54] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 18:14:58] FROM:'192.168.1.12' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 18:14:58] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+@@@ [2013/07/12 18:15:49] LISTENNING @@@
+# [2013/07/12 18:15:55] FROM:'192.168.1.12' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 18:15:56] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 18:15:57] FROM:'192.168.1.12' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 18:15:57] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 18:16:7] FROM:'192.168.1.12' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 18:16:7] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+@@@ [2013/07/12 18:22:39] LISTENNING @@@
+# [2013/07/12 18:22:44] FROM:'192.168.1.12' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 18:22:44] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 18:22:46] FROM:'192.168.1.12' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 18:22:47] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 18:22:47] FROM:'192.168.1.12' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 18:22:48] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 18:22:50] FROM:'192.168.1.12' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 18:22:50] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 18:22:52] FROM:'192.168.1.12' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 18:22:53] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+@@@ [2013/07/12 19:13:35] LISTENNING @@@
+# [2013/07/12 19:13:39] FROM:'192.168.1.12' METH:'GET'  FOR:'/c'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/12 19:15:53] LISTENNING @@@
+# [2013/07/12 19:15:57] FROM:'192.168.1.12' METH:'GET'  FOR:'/c'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 19:15:58] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 19:18:36] FROM:'192.168.1.12' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 19:18:37] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 19:18:43] FROM:'192.168.1.12' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 19:18:43] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 19:18:45] FROM:'192.168.1.12' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 19:18:45] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 19:18:47] FROM:'192.168.1.12' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 19:18:47] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 19:18:49] FROM:'192.168.1.12' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 19:18:49] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 19:19:50] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 19:19:51] FROM:'127.0.0.1' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 19:19:51] FROM:'127.0.0.1' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+@@@ [2013/07/12 19:39:5] LISTENNING @@@
+# [2013/07/12 19:39:11] FROM:'192.168.1.12' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 19:39:12] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 19:39:19] FROM:'192.168.1.12' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 19:39:19] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+@@@ [2013/07/12 19:46:26] LISTENNING @@@
+# [2013/07/12 19:46:32] FROM:'192.168.1.12' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/12 19:48:0] LISTENNING @@@
+@@@ [2013/07/12 19:50:37] LISTENNING @@@
+# [2013/07/12 19:50:41] FROM:'192.168.1.12' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/12 19:53:45] LISTENNING @@@
+# [2013/07/12 19:53:48] FROM:'192.168.1.12' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 19:54:29] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 19:55:31] FROM:'192.168.1.10' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/12 19:55:48] LISTENNING @@@
+# [2013/07/12 19:55:52] FROM:'192.168.1.10' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/12 19:56:34] LISTENNING @@@
+@@@ [2013/07/12 19:57:3] LISTENNING @@@
+@@@ [2013/07/12 19:57:22] LISTENNING @@@
+# [2013/07/12 19:57:26] FROM:'192.168.1.10' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/12 19:58:46] LISTENNING @@@
+# [2013/07/12 19:58:48] FROM:'192.168.1.10' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/12 20:0:47] LISTENNING @@@
+@@@ [2013/07/12 20:4:3] LISTENNING @@@
+@@@ [2013/07/12 20:8:16] LISTENNING @@@
+@@@ [2013/07/12 20:10:41] LISTENNING @@@
+# [2013/07/12 20:10:44] FROM:'192.168.1.10' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 20:10:44] FROM:'192.168.1.10' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 20:11:34] FROM:'192.168.1.10' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 20:11:35] FROM:'192.168.1.10' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 20:15:43] FROM:'192.168.1.10' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 20:15:44] FROM:'192.168.1.10' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+@@@ [2013/07/12 20:15:53] LISTENNING @@@
+# [2013/07/12 20:15:56] FROM:'192.168.1.10' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 20:15:56] FROM:'192.168.1.10' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 20:15:58] FROM:'192.168.1.10' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/12 20:25:22] LISTENNING @@@
+# [2013/07/12 20:25:25] FROM:'192.168.1.10' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 20:25:26] FROM:'192.168.1.10' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 20:25:30] FROM:'192.168.1.10' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 20:25:38] FROM:'192.168.1.10' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/12 20:26:40] LISTENNING @@@
+# [2013/07/12 20:26:43] FROM:'192.168.1.10' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 20:26:44] FROM:'192.168.1.10' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 20:26:45] FROM:'192.168.1.10' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 20:26:46] FROM:'192.168.1.10' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 20:26:47] FROM:'192.168.1.10' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 20:26:47] FROM:'192.168.1.10' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 20:26:47] FROM:'192.168.1.10' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 20:26:47] FROM:'192.168.1.10' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 20:26:48] FROM:'192.168.1.10' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 20:26:50] FROM:'192.168.1.10' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 20:26:50] FROM:'192.168.1.10' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 20:26:52] FROM:'192.168.1.10' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/12 20:28:30] LISTENNING @@@
+# [2013/07/12 20:28:32] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 20:28:35] FROM:'192.168.1.14' METH:'GET'  FOR:'/ajaxCall?callback=CB&GO&_=1373653715832'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/12 20:29:34] LISTENNING @@@
+# [2013/07/12 20:29:52] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 20:29:55] FROM:'192.168.1.14' METH:'GET'  FOR:'/ajaxCall?callback=CB&GO&_=1373653795176'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/12 20:50:27] LISTENNING @@@
+# [2013/07/12 20:50:31] FROM:'192.168.1.10' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 20:50:31] FROM:'192.168.1.10' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 20:50:34] FROM:'192.168.1.10' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 20:50:34] FROM:'192.168.1.10' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+@@@ [2013/07/12 20:52:56] LISTENNING @@@
+# [2013/07/12 20:52:59] FROM:'192.168.1.10' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 20:53:0] FROM:'192.168.1.10' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 20:53:4] FROM:'192.168.1.10' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 20:53:5] FROM:'192.168.1.10' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+@@@ [2013/07/12 20:59:1] LISTENNING @@@
+# [2013/07/12 20:59:4] FROM:'192.168.1.10' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 20:59:4] FROM:'192.168.1.10' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+@@@ [2013/07/12 21:1:20] LISTENNING @@@
+# [2013/07/12 21:1:24] FROM:'192.168.1.10' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:1:25] FROM:'192.168.1.10' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+@@@ [2013/07/12 21:2:30] LISTENNING @@@
+# [2013/07/12 21:2:34] FROM:'192.168.1.10' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:2:34] FROM:'192.168.1.10' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+@@@ [2013/07/12 21:5:30] LISTENNING @@@
+# [2013/07/12 21:5:33] FROM:'192.168.1.10' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:5:33] FROM:'192.168.1.10' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+@@@ [2013/07/12 21:12:22] LISTENNING @@@
+# [2013/07/12 21:12:25] FROM:'192.168.1.10' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:12:26] FROM:'192.168.1.10' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+@@@ [2013/07/12 21:14:1] LISTENNING @@@
+# [2013/07/12 21:14:19] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/12 21:16:18] LISTENNING @@@
+# [2013/07/12 21:16:23] FROM:'192.168.1.10' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:16:24] FROM:'192.168.1.10' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/12 21:16:34] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/12 21:19:32] LISTENNING @@@
+# [2013/07/12 21:19:40] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/12 21:20:43] LISTENNING @@@
+# [2013/07/12 21:20:51] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/12 21:21:24] LISTENNING @@@
+# [2013/07/12 21:21:31] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:21:33] FROM:'127.0.0.1' METH:'POST'  FOR:'/b?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/12 21:31:39] LISTENNING @@@
+@@@ [2013/07/12 21:34:47] LISTENNING @@@
+@@@ [2013/07/12 21:35:34] LISTENNING @@@
+# [2013/07/12 21:35:40] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:35:42] FROM:'127.0.0.1' METH:'POST'  FOR:'/b?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:35:44] FROM:'127.0.0.1' METH:'POST'  FOR:'/b?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:35:44] FROM:'127.0.0.1' METH:'POST'  FOR:'/b?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:35:44] FROM:'127.0.0.1' METH:'POST'  FOR:'/b?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:35:44] FROM:'127.0.0.1' METH:'POST'  FOR:'/b?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:35:45] FROM:'127.0.0.1' METH:'POST'  FOR:'/b?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:35:45] FROM:'127.0.0.1' METH:'POST'  FOR:'/b?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:35:46] FROM:'127.0.0.1' METH:'POST'  FOR:'/b?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:36:4] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:36:6] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:36:9] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:36:18] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:36:21] FROM:'127.0.0.1' METH:'POST'  FOR:'/b?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/12 21:39:4] LISTENNING @@@
+# [2013/07/12 21:39:9] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:39:11] FROM:'127.0.0.1' METH:'POST'  FOR:'/b?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:39:12] FROM:'127.0.0.1' METH:'POST'  FOR:'/b?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:39:12] FROM:'127.0.0.1' METH:'POST'  FOR:'/b?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:39:12] FROM:'127.0.0.1' METH:'POST'  FOR:'/b?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:39:13] FROM:'127.0.0.1' METH:'POST'  FOR:'/b?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/12 21:45:41] LISTENNING @@@
+# [2013/07/12 21:45:48] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:45:55] FROM:'127.0.0.1' METH:'POST'  FOR:'/b?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/12 21:47:2] LISTENNING @@@
+# [2013/07/12 21:47:12] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:47:15] FROM:'127.0.0.1' METH:'POST'  FOR:'/b?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/12 21:48:45] LISTENNING @@@
+# [2013/07/12 21:48:51] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:48:55] FROM:'127.0.0.1' METH:'POST'  FOR:'/b?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:49:56] FROM:'127.0.0.1' METH:'POST'  FOR:'/b?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:51:25] FROM:'127.0.0.1' METH:'POST'  FOR:'/b?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/12 21:52:45] LISTENNING @@@
+# [2013/07/12 21:53:2] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:53:4] FROM:'127.0.0.1' METH:'POST'  FOR:'/b?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/12 21:54:55] LISTENNING @@@
+# [2013/07/12 21:55:0] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:55:9] FROM:'127.0.0.1' METH:'POST'  FOR:'/b?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/12 21:55:38] LISTENNING @@@
+# [2013/07/12 21:55:47] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:55:50] FROM:'127.0.0.1' METH:'POST'  FOR:'/b?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:56:3] FROM:'127.0.0.1' METH:'POST'  FOR:'/b?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/12 21:58:50] LISTENNING @@@
+# [2013/07/12 21:58:56] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 21:58:58] FROM:'127.0.0.1' METH:'POST'  FOR:'/127.0.0.1/ajaxCall?callback=CB'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+@@@ [2013/07/12 22:1:16] LISTENNING @@@
+# [2013/07/12 22:1:21] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 22:1:30] FROM:'127.0.0.1' METH:'POST'  FOR:'/127.0.0.1/ajaxCall?callback=CB'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+@@@ [2013/07/12 22:3:2] LISTENNING @@@
+# [2013/07/12 22:3:7] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/12 22:3:9] FROM:'127.0.0.1' METH:'POST'  FOR:'/127.0.0.1/ajaxCall?callback=CB'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+@@@ [2013/07/13 10:36:28] LISTENNING @@@
+# [2013/07/13 10:36:40] FROM:'127.0.0.1' METH:'GET'  FOR:'/'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 10:36:40] FROM:'127.0.0.1' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 10:36:47] FROM:'127.0.0.1' METH:'GET'  FOR:'/a'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 10:36:48] FROM:'127.0.0.1' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+@@@ [2013/07/13 10:39:21] LISTENNING @@@
+# [2013/07/13 10:39:28] FROM:'127.0.0.1' METH:'GET'  FOR:'/'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 10:39:28] FROM:'127.0.0.1' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 10:39:33] FROM:'127.0.0.1' METH:'GET'  FOR:'/'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 10:39:33] FROM:'127.0.0.1' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 10:39:37] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 10:39:37] FROM:'127.0.0.1' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 10:39:39] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 10:39:40] FROM:'127.0.0.1' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 10:39:41] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 10:39:41] FROM:'127.0.0.1' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 10:39:42] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 10:39:43] FROM:'127.0.0.1' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 10:39:44] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 10:39:44] FROM:'127.0.0.1' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 10:39:45] FROM:'127.0.0.1' METH:'POST'  FOR:'/127.0.0.1/ajaxCall?callback=CB'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 10:40:6] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 10:40:7] FROM:'127.0.0.1' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 10:40:7] FROM:'127.0.0.1' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 10:40:25] FROM:'127.0.0.1' METH:'POST'  FOR:'/127.0.0.1/ajaxCall?callback=CB'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 10:40:43] FROM:'127.0.0.1' METH:'POST'  FOR:'/127.0.0.1/ajaxCall?callback=CB'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 10:40:48] FROM:'127.0.0.1' METH:'POST'  FOR:'/127.0.0.1/ajaxCall?callback=CB'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 10:40:49] FROM:'127.0.0.1' METH:'POST'  FOR:'/127.0.0.1/ajaxCall?callback=CB'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 10:40:50] FROM:'127.0.0.1' METH:'POST'  FOR:'/127.0.0.1/ajaxCall?callback=CB'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 10:40:50] FROM:'127.0.0.1' METH:'POST'  FOR:'/127.0.0.1/ajaxCall?callback=CB'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 10:40:50] FROM:'127.0.0.1' METH:'POST'  FOR:'/127.0.0.1/ajaxCall?callback=CB'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 10:40:50] FROM:'127.0.0.1' METH:'POST'  FOR:'/127.0.0.1/ajaxCall?callback=CB'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 10:40:50] FROM:'127.0.0.1' METH:'POST'  FOR:'/127.0.0.1/ajaxCall?callback=CB'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 10:58:9] FROM:'127.0.0.1' METH:'POST'  FOR:'/127.0.0.1/ajaxCall?callback=CB'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 10:58:10] FROM:'127.0.0.1' METH:'POST'  FOR:'/127.0.0.1/ajaxCall?callback=CB'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 10:58:13] FROM:'127.0.0.1' METH:'POST'  FOR:'/127.0.0.1/ajaxCall?callback=CB'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 10:58:17] FROM:'127.0.0.1' METH:'POST'  FOR:'/127.0.0.1/ajaxCall?callback=CB'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 10:58:27] FROM:'127.0.0.1' METH:'POST'  FOR:'/127.0.0.1/ajaxCall?callback=CB'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 10:58:31] FROM:'127.0.0.1' METH:'POST'  FOR:'/127.0.0.1/ajaxCall?callback=CB'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+@@@ [2013/07/13 11:0:54] LISTENNING @@@
+# [2013/07/13 11:1:1] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:1:4] FROM:'127.0.0.1' METH:'POST'  FOR:'/127.0.0.1/ajaxCall?callback=CB'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 11:1:34] FROM:'127.0.0.1' METH:'POST'  FOR:'/127.0.0.1/ajaxCall?callback=CB'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 11:1:34] FROM:'127.0.0.1' METH:'POST'  FOR:'/127.0.0.1/ajaxCall?callback=CB'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 11:1:37] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:1:39] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/13 11:3:50] LISTENNING @@@
+# [2013/07/13 11:3:57] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:3:58] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:4:0] FROM:'127.0.0.1' METH:'POST'  FOR:'/127.0.0.1/ajaxCall?callback=CB'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+@@@ [2013/07/13 11:5:40] LISTENNING @@@
+# [2013/07/13 11:5:46] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:5:49] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/13 11:6:54] LISTENNING @@@
+# [2013/07/13 11:7:1] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:7:3] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:7:4] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:7:9] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:7:9] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:7:12] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:9:5] FROM:'192.168.1.10' METH:'GET'  FOR:'/'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:9:5] FROM:'192.168.1.10' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 11:9:5] FROM:'192.168.1.10' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/13 11:9:9] FROM:'192.168.1.10' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:9:12] FROM:'192.168.1.10' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:9:15] FROM:'192.168.1.10' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:9:17] FROM:'192.168.1.10' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:9:19] FROM:'192.168.1.10' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:9:21] FROM:'192.168.1.10' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:11:35] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:12:1] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:12:4] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:12:7] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:12:9] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/13 11:14:59] LISTENNING @@@
+# [2013/07/13 11:15:4] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:15:6] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:15:7] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:15:10] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:15:11] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:15:12] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/13 11:19:49] LISTENNING @@@
+# [2013/07/13 11:19:54] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/13 11:20:34] LISTENNING @@@
+@@@ [2013/07/13 11:21:38] LISTENNING @@@
+# [2013/07/13 11:21:43] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:21:45] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:21:47] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:21:48] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:21:51] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:21:55] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:26:8] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:26:10] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:26:12] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/13 11:26:21] LISTENNING @@@
+# [2013/07/13 11:26:24] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:26:26] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:26:29] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:26:30] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:26:39] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:26:41] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:26:46] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:26:46] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:26:47] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:26:48] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:26:48] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:26:48] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:26:49] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:33:21] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:33:24] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:33:26] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:33:27] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 11:33:29] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/13 13:25:12] LISTENNING @@@
+# [2013/07/13 13:25:39] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 13:25:41] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 13:25:45] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 13:25:47] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 13:27:35] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/13 13:27:37] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/13 13:28:14] LISTENNING @@@
+# [2013/07/13 13:28:19] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/13 13:29:12] LISTENNING @@@
+@@@ [2013/07/13 13:29:33] LISTENNING @@@
+@@@ [2013/07/13 13:30:25] LISTENNING @@@
+@@@ [2013/07/13 13:56:11] LISTENNING @@@
+@@@ [2013/07/13 21:22:22] LISTENNING @@@
+@@@ [2013/07/14 7:56:11] LISTENNING @@@
+@@@ [2013/07/14 7:58:37] LISTENNING @@@
+# [2013/07/14 7:58:49] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/14 7:58:55] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/14 7:59:3] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/14 7:59:7] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/14 7:59:12] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/14 7:59:21] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/14 7:59:26] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/14 8:0:24] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/14 8:0:32] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/14 8:0:34] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/14 8:1:7] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/14 8:1:21] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/14 8:1:38] FROM:'192.168.1.12' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/14 8:1:38] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/14 8:1:41] FROM:'192.168.1.12' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/14 8:1:41] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/14 8:1:43] FROM:'192.168.1.12' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/14 8:1:43] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+@@@ [2013/07/14 8:29:13] LISTENNING @@@
+# [2013/07/14 8:29:22] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/14 8:31:35] LISTENNING @@@
+# [2013/07/14 8:31:40] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/14 8:31:41] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/14 8:32:17] LISTENNING @@@
+# [2013/07/14 8:32:21] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/14 8:32:22] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/14 8:32:31] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/14 8:32:33] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/14 8:32:53] FROM:'192.168.1.12' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/14 8:32:53] FROM:'192.168.1.12' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+@@@ [2013/07/14 8:34:47] LISTENNING @@@
+# [2013/07/14 8:34:52] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/14 8:35:44] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/14 8:35:48] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/14 8:36:23] LISTENNING @@@
+@@@ [2013/07/14 8:36:38] LISTENNING @@@
+@@@ [2013/07/14 8:52:23] LISTENNING @@@
+# [2013/07/14 8:52:28] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/14 9:5:50] LISTENNING @@@
+@@@ [2013/07/14 13:24:15] LISTENNING @@@
+@@@ [2013/07/14 13:28:49] LISTENNING @@@
+@@@ [2013/07/14 13:30:20] LISTENNING @@@
+@@@ [2013/07/14 13:31:56] LISTENNING @@@
+@@@ [2013/07/14 13:35:54] LISTENNING @@@
+@@@ [2013/07/20 12:4:22] LISTENNING @@@
+# [2013/07/20 12:4:47] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/20 12:4:49] FROM:'127.0.0.1' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/20 12:4:49] FROM:'127.0.0.1' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/07/20 12:4:51] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/20 12:4:57] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/20 12:4:58] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/20 12:4:59] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/20 12:5:5] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/20 12:5:16] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/20 12:5:17] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/20 12:6:41] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/07/20 12:8:0] LISTENNING @@@
+# [2013/07/20 12:8:5] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/07/20 12:8:7] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/08/30 10:17:33] LISTENNING @@@
+# [2013/08/30 10:17:46] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:17:46] FROM:'127.0.0.1' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/08/30 10:17:46] FROM:'127.0.0.1' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/08/30 10:17:55] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:17:57] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:17:58] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:18:1] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:18:3] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:18:4] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:21:49] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:22:1] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:22:5] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:22:9] FROM:'127.0.0.1' METH:'GET'  FOR:'/e'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:22:11] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:22:13] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:22:15] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:22:15] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/08/30 10:24:17] LISTENNING @@@
+# [2013/08/30 10:26:50] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:26:52] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/08/30 10:29:46] LISTENNING @@@
+@@@ [2013/08/30 10:30:31] LISTENNING @@@
+# [2013/08/30 10:30:40] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:46:34] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:46:36] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:46:38] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/08/30 10:49:0] LISTENNING @@@
+# [2013/08/30 10:49:23] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:49:24] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/08/30 10:50:34] LISTENNING @@@
+# [2013/08/30 10:50:42] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:50:43] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:50:59] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:51:2] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:51:7] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:51:9] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:51:19] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:51:20] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:51:36] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:51:41] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/08/30 10:54:56] LISTENNING @@@
+# [2013/08/30 10:54:58] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 10:55:10] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/08/30 11:32:8] LISTENNING @@@
+# [2013/08/30 11:32:12] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 11:32:18] FROM:'127.0.0.1' METH:'GET'  FOR:'/a'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/08/30 11:33:4] LISTENNING @@@
+# [2013/08/30 11:33:7] FROM:'127.0.0.1' METH:'GET'  FOR:'/c'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 11:33:14] FROM:'127.0.0.1' METH:'GET'  FOR:'/a'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 11:33:18] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 11:33:24] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 11:33:26] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 11:33:49] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 11:40:52] FROM:'127.0.0.1' METH:'GET'  FOR:'/e'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 11:41:7] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/30 11:41:12] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/08/31 10:54:50] LISTENNING @@@
+# [2013/08/31 10:54:53] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/08/31 10:54:53] FROM:'127.0.0.1' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/08/31 10:54:53] FROM:'127.0.0.1' METH:'GET'  FOR:'/favicon.ico'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/08/31 10:54:57] FROM:'127.0.0.1' METH:'GET'  FOR:'/bdd'  RESP:HTTP/1.1 404 Not Found	Content-Type: text/html
+# [2013/08/31 10:55:16] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+@@@ [2013/09/04 20:8:1] LISTENNING @@@
+# [2013/09/04 20:8:5] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/09/04 20:8:13] FROM:'127.0.0.1' METH:'POST'  FOR:'/ajaxCall?callback=CB'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/09/04 20:8:15] FROM:'127.0.0.1' METH:'GET'  FOR:'/d'  RESP:HTTP/1.1 200 OK	Content-Type: text/html
+# [2013/09/04 20:8:17] FROM:'127.0.0.1' METH:'GET'  FOR:'/b'  RESP:HTTP/1.1 200 OK	Content-Type: text/html

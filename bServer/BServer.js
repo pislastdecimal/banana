@@ -1,0 +1,117 @@
+/************************************
+ * Par: bruno                       *
+ * Le: 08/07/13                     *
+ *                                  *
+ * Jusqu'à l'infini et au dela...   *
+ ************************************/
+
+var http = require('http')
+    , url = require('url')
+    , bConf = require('./../BConf').config
+    , socketConf = require('./../BConf').socketConf
+    , bLog = require('./BLogs')
+    , bController = require('./../bCore/BController')
+    , bUtil = require('./../bCore/BUtils')
+    , fs = require('fs');
+
+
+var error404 = {action:bController.rh.error404, 'template':"error404"};
+
+/**
+ *
+ * @param bRouter
+ * @param requestMapping
+ * @param aControllers
+ */
+function start(bRouter, requestMapping, aControllers) {
+    bLog.writeServerEvent('listen');
+    function onRequest(request, response) {
+
+        var parsedUrl = url.parse(request.url);
+        var pathname = parsedUrl.pathname;
+
+        if (typeof requestMapping[pathname] != "undefined") {
+            var controller = aControllers[requestMapping[pathname]];
+        } else {
+            var controller = {};
+            var pathname = "error404";
+            controller[pathname] = pathname;
+        }
+
+        //redirection
+        bRouter.route(controller[pathname], response, request);
+        //log
+        bLog.writeLog(request, response);
+    }
+
+    var server = http.createServer(onRequest).listen(bConf.port);
+
+    server.on('close', function () {
+        bLog.writeServerEvent('close');
+    });
+    //
+    if (socketConf.socket) {
+        var io = require('socket.io').listen(socketConf.port);
+        io.set('transports', [
+            'websocket'
+            , 'htmlfile'
+            , 'xhr-polling'
+            , 'jsonp-polling'
+        ]);
+        startSocket(io);
+    }
+
+}
+exports.start = start;
+
+/**
+ *
+ * @param io
+ */
+function startSocket(io) {
+
+    var i = 0;
+    io.set('transports', [
+        'websocket'
+        , 'htmlfile'
+        , 'xhr-polling'
+        , 'jsonp-polling'
+    ]);
+    if (socketConf.levelApp == 'prod')
+        io.set('log level', 2);
+
+    io.sockets.on('connection', function (socket) {
+
+        /** test pushing img */
+        var img = fs.readFile("./tmp/test.jpg", "base64", function (error, file) {
+            if (error) throw error;
+            socket.emit('img', file);
+        });
+
+        /** when server receives a 'user' event from a client */
+        socket.on('user', function (data) {
+
+            socket.set('userData', data);
+            bLog.writeSocketEvent('connect', socket.handshake.address.address + " " + socket.id + " " + data.c + " " + data.f + "\n");
+        });
+
+        /** when server receives a 'userdeco' event from a client */
+        socket.on('userdeco', function (data) {
+            bLog.writeSocketEvent('disconnect', socket.id + " " + data.c + " " + data.f + "\n");
+        });
+
+        setInterval(function () {
+            /**  server sends users data */
+            socket.emit('con', socket.store.data.userData);
+            if (typeof socket.handshake != 'undefined')
+                bLog.writeSocketLog("Send " + JSON.stringify(socket.store.data.userData) + " to " + socket.handshake.address.address + " " + socket.id);
+        }, 5000);
+    });
+
+}
+
+
+
+
+
+
