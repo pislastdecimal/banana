@@ -26,7 +26,7 @@ exports.config = conf;
 var socket={
      "socket":true
     ,"port":8889
-    ,"serverIp":"192.168.1.14"
+    ,"serverIp":"192.168.3.78"
     ,"logFile":"socketLog.txt"
     ,"levelApp":'dev'
 };
