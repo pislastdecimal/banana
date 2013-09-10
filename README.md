@@ -1,4 +1,5 @@
-baNana
+baNana first node.js project by bruno lamarlere
+feel free to help me :)
 ======
 
 tiny yellow curved and sweet node.js framework
