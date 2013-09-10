@@ -96,6 +96,7 @@ exports.requestMapping = function (aControllers) {
             requestMapping[k2] = k;
         }
     }
+
     return requestMapping;
 };
 
@@ -150,7 +151,7 @@ exports.renderTemplate = function (t, response, vars, cb) {
 
     if (typeof bConf.templating == "undefined" || bConf.templating == "nana") {
         var output = require('../bApp/template/views/' + t + '.nana').template();
-
+         console.log(t);
         response.write(output);
         response.write(template.foot);
         response.end();

@@ -14,9 +14,9 @@ exports.rh = {
     },
     error404:function (template, response) {
         response.writeHead(404, {"Content-Type":"text/html"});
-        response.write(errTmp.header);
-        response.write(errTmp.body);
-        response.write(errTmp.footer);
+
+        response.write(errTmp.template());
+
         response.end();
     }
 

@@ -12,7 +12,8 @@
 var bServer = require('./bServer/BServer')
     , bRouter = require('./bCore/BRouter')
     , bUtils = require('./bCore/BUtils')
-    , bcontroller = require('./bCore/BController');
+//    , bcontroller = require('./bCore/BController')
+;
 
 /** Controllers  */
 var CT = require('./bApp/controller/controllerTest');

@@ -8,7 +8,10 @@
 var fs = require('fs');
 var os = require('os');
 
-
+/**
+ * get server  ip
+ * @type {*}
+ */
 var interfaces = os.networkInterfaces();
 var addresses = [];
 for (k in interfaces) {

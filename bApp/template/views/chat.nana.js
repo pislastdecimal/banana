@@ -5,16 +5,17 @@
  * Jusqu'à l'infini et au dela...   *
  ************************************/
 
-var socketConf = require('./../../../BConf').socketConf;
-
-var io = require('socket.io/node_modules/socket.io-client/dist/socket.io');
-var ip = socketConf.serverIp; var port=socketConf.port;
+//var socketConf = require('./../../../BConf').socketConf;
+//
+//var io = require('socket.io/node_modules/socket.io-client/dist/socket.io');
+//var ip = socketConf.serverIp; var port=socketConf.port;
 
 exports.template = function(){
-
+//    console.log("in chat");
 	var t = '<div class="span12">'+
 		'<div>'+
 		'<a href="/b">TO B</a>'+
 		'</div></div>';
 
+    return t;
 };

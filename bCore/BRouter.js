@@ -17,11 +17,13 @@ function route(controller, response, request) {
 
     //  404
     if (controller == "error404") {
+
         controller = {action:bController.rh.error404, template:"error404"};
     }
 
     // routing to action with template
     if (typeof controller.action === 'function') {
+
         var temp = typeof controller.template != 'string' ? "default" : controller.template;
 
         return controller.action(temp, response, request);
