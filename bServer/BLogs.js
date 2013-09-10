@@ -54,8 +54,14 @@ exports.writeServerEvent = function (e) {
         fs.writeFile(lf, log, {flag:"a+"}, function (err) {
             if (err) throw err;
         });
-    } else if (e == "listen") {
+    }
+    else if (e == "listen") {
         var log = "@@@ [" + formatedDate + "] LISTENNING @@@\n";
+        fs.writeFile(lf, log, {flag:"a+"}, function (err) {
+            if (err) throw err;
+        });
+    } else{
+        var log = "@@@ [" + formatedDate + "] "+e+"\n";
         fs.writeFile(lf, log, {flag:"a+"}, function (err) {
             if (err) throw err;
         });

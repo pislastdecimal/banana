@@ -9,7 +9,8 @@
 var querystring = require('querystring')
     , fs = require("fs")
     , path = require('path')
-    , bUtils = require('./../../bCore/BUtils');
+    , bUtils = require('./../../bCore/BUtils')
+    ;
 
 /**
  * request handler <=> Controller
@@ -55,11 +56,19 @@ var rh = {
      *
      * @param temp
      * @param response
+     * @param request
+     * @param data
      */
     ajaxCall:function (temp, response, request, data) {
         bUtils.renderAjaxTemplate(temp, response, data, function (output) {
         });
     },
+    /**
+     * @param temp
+     * @param response
+     * @param request
+     * @param data
+     */
     chat:function (temp, response, request, data) {
         bUtils.renderTemplate(temp, response, {}, function (output) {
 

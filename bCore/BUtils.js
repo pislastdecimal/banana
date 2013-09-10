@@ -8,7 +8,9 @@
 
 var bConf = require("./../BConf").config
     , bBaseTemplate = require('./../bApp/template/BBase')
-    , fs = require("fs");
+    , fs = require("fs")
+    , bLog = require('./../bServer/BLogs')
+    ;
 
 /**
  * compte le nombre d'entrees dans un json
@@ -121,7 +123,7 @@ exports.formatedLogDate = function (date) {
     var m = date.getMonth() + 1;
     m = m < 10 ? "0" + m : m;
     var d = date.getDate() < 10 ? "0" + date.getDate() : date.getDate();
-    return  date.getFullYear() + m + d+ date.getHours() + date.getMinutes() + date.getSeconds();
+    return  date.getFullYear() + m + d + date.getHours() + date.getMinutes() + date.getSeconds();
 };
 
 /**
@@ -146,12 +148,18 @@ exports.renderTemplate = function (t, response, vars, cb) {
     response.writeHead(200, {"Content-Type":"text/html"});
     response.write(template.head);
     response.write(template.bodyHead);
-    
-    if (typeof vars =="undefined") vars ={};
+
+    if (typeof vars == "undefined") vars = {};
 
     if (typeof bConf.templating == "undefined" || bConf.templating == "nana") {
         var output = require('../bApp/template/views/' + t + '.nana').template();
-         console.log(t);
+
+        if (typeof output == "undefined") {
+            output = "Une erreur s'est produite : le template <strong>" + t + "</strong> rencontre un probleme .";
+
+            bLog.writeServerEvent("Une erreur s'est produite : le template " + t + " rencontre un probleme .");
+        }
+
         response.write(output);
         response.write(template.foot);
         response.end();
@@ -164,11 +172,11 @@ exports.renderTemplate = function (t, response, vars, cb) {
  * @param response
  * @param vars
  */
-exports.renderAjaxTemplate = function (t, response,vars,cb) {
+exports.renderAjaxTemplate = function (t, response, vars, cb) {
     var output = require('../bApp/template/views/' + t + '.nana').template(vars);
-   
+
     response.writeHead(200, {"Content-Type":"text/html"});
-    response.write('CB("'+output+'")');
+    response.write('CB("' + output + '")');
     response.end();
 };
 

@@ -11,7 +11,7 @@
 //var ip = socketConf.serverIp; var port=socketConf.port;
 
 exports.template = function(){
-//    console.log("in chat");
+
 	var t = '<div class="span12">'+
 		'<div>'+
 		'<a href="/b">TO B</a>'+
