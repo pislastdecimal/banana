@@ -6,6 +6,19 @@
  ************************************/
 
 var fs = require('fs');
+var os = require('os');
+
+
+var interfaces = os.networkInterfaces();
+var addresses = [];
+for (k in interfaces) {
+    for (k2 in interfaces[k]) {
+        var address = interfaces[k][k2];
+        if (address.family == 'IPv4' && !address.internal) {
+            addresses.push(address.address)
+        }
+    }
+}
 
 /**
  * config http
@@ -26,7 +39,7 @@ exports.config = conf;
 var socket={
      "socket":true
     ,"port":8889
-    ,"serverIp":"192.168.3.78"
+    ,"serverIp":addresses[0]
     ,"logFile":"socketLog.txt"
     ,"levelApp":'dev'
 };
