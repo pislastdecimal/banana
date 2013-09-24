@@ -78,7 +78,7 @@ var routeTest = {
     ,"/d":{'action':'b','template':"d"}
     ,"/e":{'action':'c','template':"b",'uri':true}
     ,"/ajaxCall":{action:'ajaxCall', template:"ajax"}
-    ,"/chat":{action:"chat",template:"chat"}
-    ,"/route/pour/*test/*varUrl":{"action":"a"}
+    ,"/chat/:i":{action:"chat",template:"chat"}
+    ,"/args/:i/:s":{"action":"a"}
 };
 exports.routeTest = routeTest;

@@ -48,8 +48,8 @@ var rh = {
      */
     c:function (temp, response) {
         var noms = ['Robert', 'Jacques', 'David'];
-        bUtils.renderTemplate(temp, response, function (output) {
-        }, noms);
+        bUtils.renderTemplate(temp, response, noms, function (output) {
+        });
     },
 
     /**

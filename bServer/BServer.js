@@ -25,12 +25,22 @@ var error404 = {action:bController.rh.error404, 'template':"error404"};
  */
 function start(bRouter, requestMapping, aControllers) {
     bLog.writeServerEvent('listen');
+
+    console.log(aControllers);
+
     function onRequest(request, response) {
 
         var parsedUrl = url.parse(request.url);
         var pathname = parsedUrl.pathname;
 
+        for(var k in aControllers){
+            console.log(aControllers[k].parameters );
+//            if (typeof aControllers[k].parameters == "Object") console.log(pathname+" params")
+            if(pathname == k) console.log(k+" :OK");
+        }
+
         if (typeof requestMapping[pathname] != "undefined") {
+
             var controller = aControllers[requestMapping[pathname]];
         } else {
             var controller = {};

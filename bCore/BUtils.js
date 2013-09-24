@@ -57,25 +57,32 @@ exports.routeParser = function (r, RH) {
     var routed = {};
     var fn = typeof RH.rh['rhName'] == "undefined" ? " " : RH.rh['rhName'].toUpperCase();
 
-    var pattern = /\*u/;
+    //var pattern = /\*u/;
 
     // parcours du tableau de routes
     // association du pathname (URI) avec l'action correspondante.
     for (var k in r) {
-        var routes = k.split('*');
-
-//        console.log(routes);
-
-        var j = k;
-        if (k.match(pattern)) {
-            j = k.split(pattern);
-            j = j[0];
+        // parametres d'url
+        var routes = k.split(':');
+        var p = [];
+        if (routes.length > 1) {
+            for (var i = 1; i < routes.length; i++) {
+                p.push(routes[i].replace("/", ""));
+            }
         }
 
+//        var j = k;
+//        if (k.match(pattern)) {
+//            j = k.split(pattern);
+//            j = j[0];
+//        }
+
         if (typeof RH.rh[r[k].action] != "undefined") {
-            routed[j] = {
+            routed[k] = {
+//            routed[routes[0]] = {
                 'action':RH.rh[r[k].action],
-                'template':typeof r[k].template == "string" ? r[k].template : "default"
+                'template':typeof r[k].template == "string" ? r[k].template : "default",
+                'parameters':p
             };
 
         } else {
